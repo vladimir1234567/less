@@ -113,7 +113,7 @@ h3 {
 .about-us {
     position: relative;
     padding-top: 75px;
-    padding-bottom: 5px;
+    padding-bottom: 80px;
     top: -200px;
     background: #ffffff;
     border-radius: 10px;
@@ -127,17 +127,16 @@ h3 {
  }
 .p-aboutus {
     margin-bottom: 65px;
-    padding-left: 185px;
-    padding-right: 185px;
+    padding: 0 170px;
     font-size: 20px;
     line-height: 35px;
     font-weight: 300;
-    text-align: center;
+    /*text-align: center;*/
     text-transform: uppercase;
 }
 .more-info {
     display: block;
-    margin: 0 auto 75px auto;
+    margin: 0 auto 0 auto;
     padding: 30px 80px;
     background: #3498db;
     color: #ffffff;
@@ -147,8 +146,7 @@ h3 {
     border-radius: 50px;
 }
 .section-about .upon-top {
-    width: 1145px;
-    margin: -110px auto 0 auto;
+    margin-top: -110px;
 }
 .section-about  .li-about {
     display: inline-block;
@@ -164,7 +162,9 @@ h3 {
     background: #ffffff;
 }
 .upon-top .p-about {
-    font-weight: 500;
+    font-weight: 700;
+    line-height: 25px;
+    color: #2c3e50;
     margin-bottom: 125px;
 }
 .p-about span {
@@ -193,4 +193,52 @@ h3 {
     padding-left: 380px;
     padding-right: 380px;
     margin-bottom: 75px;
+}
+.just-text {
+    background: #ecf0f1;
+    padding-top: 100px;
+    padding-bottom: 310px;
+}
+.just-text .h-just {
+    color: #2c3e50;
+    font-weight: 500;
+    line-height: 60px;
+}
+.clients {
+    background: #9b59b6;
+}
+.clients .reviews {
+    position: relative;
+    top: -200px;
+}
+.reviews .review {
+    width: 560px;
+    background: #ffffff;
+    padding: 75px 0;
+    border-radius: 10px;
+}
+.reviews .left-review {
+    float: left;
+}
+.reviews .right-review {
+    float: right;
+}
+.review .h-review {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: #2c3e50;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.review .p-review {
+    /*text-align: center;*/
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    color: #2c3e50;
+    text-transform: uppercase;
 }
