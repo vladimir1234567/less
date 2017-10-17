@@ -72,21 +72,14 @@ h3 {
 }
 .clearfix {
     overflow: auto;
-    /*zoom: 1;*/
-
-}
-.section-top {
-    padding-top: 60px;
-    padding-bottom: 380px;
-    background: #3498db;
-    min-height: 50px;
-}
-.width-content {
-    width: 1145px;
-    margin: 0 auto;
 }
 .main-header {
-    margin-bottom: 350px;
+    padding: 55px 0;
+    background: #3498db;
+}
+.wrapper {
+    width: 1145px;
+    margin: 0 auto;
 }
 .logo {
     float: left;
@@ -96,6 +89,15 @@ h3 {
 }
 .main-nav {
     float: right;
+}
+.section-top {
+    padding-top: 175px;
+    padding-bottom: 380px;
+    background: #3498db;
+}
+.width-content {
+    width: 1145px;
+    margin: 0 auto;
 }
 .h-hello {
     font-size: 90px;
@@ -123,14 +125,14 @@ h3 {
     background: #ffffff;
     border-radius: 10px;
 }
-.h-aboutus {
+.aboutus-title {
     margin-bottom: 35px;
 }
 .cross {
     display: block;
     margin: 0 auto 35px auto;
  }
-.p-aboutus {
+.aboutus-description {
     margin-bottom: 65px;
     padding: 0 170px;
     font-size: 20px;
@@ -149,15 +151,15 @@ h3 {
     text-transform: uppercase;
     border-radius: 50px;
 }
-.section-about .upon-top {
+.about-us .upon-top {
     margin-top: -110px;
 }
-.section-about  .li-about {
+.upon-top  .about-item {
     display: inline-block;
     font-size: 0;
     width: 33%;
 }
-.li-about .a-about {
+.upon-top  .about-link {
     display: block;
     width: 225px;
     height: 225px;
@@ -165,13 +167,13 @@ h3 {
     border-radius: 50%;
     background: #ffffff;
 }
-.upon-top .p-about {
+.upon-top .about-description {
     font-weight: 700;
     line-height: 25px;
     color: #2c3e50;
     margin-bottom: 125px;
 }
-.p-about span {
+.about-description span {
     display: block;
     padding-top: 25px;
 }
@@ -180,22 +182,21 @@ h3 {
     padding-top: 100px;
     padding-bottom: 120px;
 }
-.slider-projects {
+.slider-wrapper {
     width: 1506px;
     margin-left: auto;
     margin-right: auto;
 }
-.slider-projects .h-recent {
+.slider-wrapper .recent-title {
     color: #ffffff;
     font-weight: 500;
     margin-bottom: 40px;
 }
-.slider-projects .p-recent {
+.slider-wrapper .recent-description {
     color: #ffffff;
     font-weight: 400;
     line-height: 35px;
-    padding-left: 380px;
-    padding-right: 380px;
+    padding: 0 360px;
     margin-bottom: 75px;
 }
 .just-text {
@@ -203,7 +204,7 @@ h3 {
     padding-top: 100px;
     padding-bottom: 310px;
 }
-.just-text .h-just {
+.just-text .just-title{
     color: #2c3e50;
     font-weight: 500;
     line-height: 60px;
@@ -227,7 +228,7 @@ h3 {
 .reviews .right-review {
     float: right;
 }
-.review .h-review {
+.review .review-title {
     text-align: center;
     font-size: 40px;
     font-weight: 300;
@@ -235,8 +236,7 @@ h3 {
     text-transform: uppercase;
     margin-bottom: 30px;
 }
-.review .p-review {
-    /*text-align: center;*/
+.review .review-description {
     padding-left: 50px;
     padding-right: 50px;
     margin-bottom: 60px;
@@ -246,37 +246,35 @@ h3 {
     color: #2c3e50;
     text-transform: uppercase;
 }
-.our-clients {
+.clients div.wrapper {
     margin-top: -90px;
     padding-bottom: 120px;
 }
-.h-list {
+.list-title {
     color: #ffffff;
     margin-bottom: 80px;
 }
 .list-clients {
     padding: 0 40px;
 }
-.list-clients .itrm-client {
+.list-clients .item-client
+{
     display: inline-block;
     vertical-align: middle;
     margin-right: 120px;
 }
-.list-clients .itrm-client:last-child {
+.list-clients .item-client:last-child {
     margin-right: 0;
 }
 .team {
+    padding: 100px 0;
     background: #ecf0f1;
 }
-.team .our-team {
-    padding: 100px 0;
-
-}
-.team .h-team {
+.team .team-title {
     margin-bottom: 40px;
 }
 
-.p-team {
+.team-description {
     padding: 0 180px;
     margin-bottom: 70px;
     font-weight: 400;
@@ -290,7 +288,7 @@ h3 {
 .list-team li:last-child {
     margin-right: 0;
 }
-.list-team figure a {
+.face-team .team-link {
     display: block;
     width: 223px;
     height: 223px;
@@ -298,19 +296,17 @@ h3 {
     border-radius: 50%;
     background: #ffffff;
 }
-.list-team figure {
+.face-team .face-description {
     margin-bottom: 30px;
-}
-.list-team figcaption {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     color: #2c3e50;
 }
-.list-team .p-face {
-    padding: 0 15px;
+.face-team .item-description {
     margin-bottom: 30px;
+    padding: 0 15px;
     font-size: 16px;
     text-transform: none;
     line-height: 30px;
@@ -349,20 +345,20 @@ footer .footer-logo {
     float: left;
 
 }
-footer .link-list {
+footer .page-list {
     float: right;
     padding-top: 10px;
 
 }
-.link-list .item-link {
+.page-list .page-item {
     display: inline-block;
     margin-right: 20px;
     font-size: 0;
 }
-.link-list .item-link:last-child {
+.page-list .page-item:last-child {
     margin-right: 0;
 }
-.item-link a {
+.page-item a {
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;

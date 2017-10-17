@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<section class="section-top">
-    <header class="main-header width-content clearfix">
+<header class="main-header">
+    <div class="wrapper clearfix">
         <h1 class="logo">
             <a href="#">
                 <img src="img/logo.png" width="150" height="35" alt="AION">
@@ -17,68 +17,72 @@
         <nav class="main-nav">
             <img src="img/menu.png" alt="Menu">
         </nav>
-    </header>
+    </div>
+</header>
+<section class="section-top">
     <h2 class="h-hello">Hello!</h2>
     <p class="p-hello">We are creative agency</p>
 </section>
 <section class="section-about">
-    <section class="about-us width-content">
-        <h3 class="h-aboutus">About us</h3>
-        <img src="img/cross.png" class="cross" width="35" height="35" alt="close">
-        <p class="p-aboutus">
-            la pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum. Sed ut
-            perspiciatis unde omnis iste natus error sit voluptatem accusantium
-            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-            inventore veritatis et quasi architecto beatae vitae dicta sunt
-        </p>
-        <button class="more-info">Read more</button>
-    </section>
-    <ul class="upon-top width-content">
-        <li class="li-about">
-            <a href="#" class="a-about"></a>
-            <p class="p-about">
-                mnesarchum constituam
-                <span>lorem&nbsp;ipsum</span>
+    <div class="wrapper">
+        <section class="about-us">
+            <h3 class="aboutus-title">About us</h3>
+            <img src="img/cross.png" class="cross" width="35" height="35" alt="close">
+            <p class="aboutus-description">
+                la pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum. Sed ut
+                perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                inventore veritatis et quasi architecto beatae vitae dicta sunt
             </p>
-        </li>
-        <li class="li-about">
-            <a href="#" class="a-about"></a>
-            <p class="p-about">
-                prompta tincidunt
-                <span>lorem&nbsp;ipsum</span>
-            </p>
-        </li>
-        <li class="li-about">
-            <a href="#" class="a-about"></a>
-            <p class="p-about">
-                ancillae reformidans
-                <span>lorem&nbsp;ipsum</span>
-            </p>
-        </li>
-    </ul>
+            <button class="more-info">Read more</button>
+        </section>
+        <ul class="upon-top">
+            <li class="about-item">
+                <a href="#" class="about-link"></a>
+                <p class="about-description">
+                    mnesarchum constituam
+                    <span>lorem&nbsp;ipsum</span>
+                </p>
+            </li>
+            <li class="about-item">
+                <a href="#" class="about-link"></a>
+                <p class="about-description">
+                    prompta tincidunt
+                    <span>lorem&nbsp;ipsum</span>
+                </p>
+            </li>
+            <li class="about-item">
+                <a href="#" class="about-link"></a>
+                <p class="about-description">
+                    ancillae reformidans
+                    <span>lorem&nbsp;ipsum</span>
+                </p>
+            </li>
+        </ul>
+    </div>
 </section>
 <section class="recent-projects">
-    <section class="slider-projects">
-        <h3 class="h-recent">RECENT PROJECTS</h3>
-        <p class="p-recent">eritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+    <div class="slider-wrapper">
+        <h3 class="recent-title">RECENT PROJECTS</h3>
+        <p class="recent-description">eritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
             enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
         </p>
         <img src="img/slider.png" alt="slider" class="img-recent">
-    </section>
+    </div>
 </section>
 <section class="just-text">
-    <h3 class="h-just width-content">
+    <h3 class="just-title wrapper">
         minim veniam, quis nostrud exercitation ullamco
         laboris nisi ut aliquip ex ea commodo
     </h3>
 </section>
 <section class="clients">
-    <section class="reviews width-content clearfix">
+    <section class="reviews wrapper clearfix">
         <article class="review left-review">
-            <h4 class="h-review">Quodsi fabulas</h4>
+            <h4 class="review-title">Quodsi fabulas</h4>
             <img src="img/cross.png" class="cross" alt="close">
-            <p class="p-review">
+            <p class="review-description">
                 la pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
                 Sed ut perspiciatis unde omnis
@@ -86,9 +90,10 @@
             <button class="more-info">Read more</button>
         </article>
         <article class="review right-review">
-            <h4 class="h-review">Quodsi fabulas</h4>
+            <h4 class="review-title">Quodsi fabulas</h4>
             <img src="img/cross.png" class="cross" alt="close">
-            <p class="p-review">
+
+            <p class="review-description">
                 la pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
                 Sed ut perspiciatis unde omnis
@@ -96,46 +101,44 @@
             <button class="more-info">Read more</button>
         </article>
     </section>
-    <section class="our-clients width-content">
-        <h3 class="h-list">Our clients</h3>
+    <div class="wrapper">
+        <h3 class="list-title">Our clients</h3>
         <ul class="list-clients">
-            <li class="itrm-client">
+            <li class="item-client">
                 <a href="#">
                     <img src="img/msft.png" alt="icon" class="icon-client icon-msft">
                 </a>
             </li>
-            <li class="itrm-client">
+            <li class="item-client">
                 <a href="#">
                     <img src="img/samsung.png" alt="icon" class="icon-client icon-samsung">
                 </a>
             </li>
-            <li class="itrm-client">
+            <li class="item-client">
                 <a href="#">
                     <img src="img/ibm.png" alt="icon" class="icon-client icon-ibm">
                 </a>
             </li>
-            <li class="itrm-client">
+            <li class="item-client">
                 <a href="#">
                     <img src="img/google.png" alt="icon" class="icon-client icon-google">
                 </a>
             </li>
         </ul>
-    </section>
+    </div>
 </section>
 <section class="team">
-    <article class="our-team width-content">
-        <h3 class="h-team">Our team</h3>
-        <p class="p-team">
+    <article class="wrapper">
+        <h3 class="team-title">Our team</h3>
+        <p class="team-description">
             Eritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
             enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
         </p>
         <ul class="list-team">
             <li class="face-team">
-                <figure>
-                    <a href="#"><img src="" alt=""></a>
-                    <figcaption>John Dean</figcaption>
-                </figure>
-                <p class="p-face">
+                    <a href="#" class="team-link"><img src="" alt=""></a>
+                    <p class="face-description">">Dean</p>
+                <p class="item-description">
                     Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit, sed do eiusmod tempor
                 </p>
@@ -146,11 +149,9 @@
                 </div>
             </li>
             <li class="face-team">
-                <figure>
-                    <a href="#"><img src="" alt=""></a>
-                    <figcaption>Rebbeca Russo</figcaption>
-                </figure>
-                <p class="p-face">
+                <a href="#" class="team-link"><img src="" alt=""></a>
+                <p class="face-description">>Rebbeka Russo</p>
+                <p class="item-description">
                     Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit, sed do eiusmod tempor
                 </p>
@@ -161,11 +162,9 @@
                 </div>
             </li>
             <li class="face-team">
-                <figure>
-                    <a href="#"><img src="" alt=""></a>
-                    <figcaption>Peter Smith</figcaption>
-                </figure>
-                <p class="p-face">
+                <a href="#" class="team-link"><img src="" alt=""></a>
+                <p class="face-description">Peter Smith</p>
+                <p class="item-description">
                     Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit, sed do eiusmod tempor
                 </p>
@@ -179,19 +178,19 @@
     </article>
 </section>
 <footer>
-    <section class="width-content clearfix">
+    <div class="wrapper clearfix">
         <div class="footer-logo">
             <a href="#">
                 <img src="img/logo.png" width="150" height="35" alt="AION">
             </a>
         </div>
-        <ul class="link-list">
-            <li class="item-link"><a href="#">Home</a></li>
-            <li class="item-link"><a href="#">Services</a></li>
-            <li class="item-link"><a href="#">Our woorks</a></li>
-            <li class="item-link"><a href="#">Contact</a></li>
+        <ul class="page-list">
+            <li class="page-item"><a href="#">Home</a></li>
+            <li class="page-item"><a href="#">Services</a></li>
+            <li class="page-item"><a href="#">Our woorks</a></li>
+            <li class="page-item"><a href="#">Contact</a></li>
         </ul>
-    </section>
+    </div>
 </footer>
 <!--i am don`t know what is this arrows in the footer&-->
 </body>
