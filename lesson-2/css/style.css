@@ -348,14 +348,12 @@ footer .footer-logo {
 }
 footer .page-list {
     float: right;
+    padding-top: 10px;
+
 }
 .page-list .page-item {
     display: inline-block;
     margin-right: 20px;
-    padding-top: 10px;
-    height: 30px;
-    font-size: 0;
-    /*text-align: center;*/
 }
 .page-list .page-item:last-child {
     margin-right: 0;
