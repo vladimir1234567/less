@@ -191,22 +191,26 @@ h3 {
     padding-top: 100px;
     padding-bottom: 120px;
 }
-.slider-wrapper {
-    width: 1506px;
+.recent-projects .recent-header {
+    width: 814px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 75px;
 }
-.slider-wrapper .recent-title {
+.recent-header .recent-title {
     color: #ffffff;
     font-weight: 500;
     margin-bottom: 40px;
 }
-.slider-wrapper .recent-description {
+.recent-header .recent-description {
     color: #ffffff;
     font-weight: 400;
     line-height: 35px;
-    padding: 0 360px;
-    margin-bottom: 75px;
+}
+.slider-wrapper {
+    width: 1506px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .single-title {
     background: #ecf0f1;
@@ -224,6 +228,7 @@ h3 {
 .clients .reviews {
     position: relative;
     top: -200px;
+    margin-bottom: -90px;
 }
 .reviews .review {
     width: 560px;
@@ -231,10 +236,10 @@ h3 {
     padding: 75px 0;
     border-radius: 10px;
 }
-.reviews .left-review {
+.reviews .god-review {
     float: left;
 }
-.reviews .right-review {
+.reviews .best-review {
     float: right;
 }
 .review .review-title {
@@ -255,9 +260,10 @@ h3 {
     color: #2c3e50;
     text-transform: uppercase;
 }
-.clients div.wrapper {
-    margin-top: -90px;
+.clients .wrapper-list {
     padding-bottom: 120px;
+    width: 1145px;
+    margin: 0 auto;
 }
 .list-title {
     color: #ffffff;
@@ -266,8 +272,7 @@ h3 {
 .list-clients {
     padding: 0 40px;
 }
-.list-clients .item-client
-{
+.list-clients .item-client {
     display: inline-block;
     vertical-align: middle;
     margin-right: 120px;
